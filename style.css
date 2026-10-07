@@ -70,6 +70,13 @@ p { margin: .7rem 0 0; max-width: 68ch; }
 .grid-list strong { display: block; color: var(--ink); font: 700 1.05rem var(--font-display); }
 .note { margin-top: 1.5rem; padding-left: 1rem; border-left: 3px solid var(--line); }
 
+.sub-title { margin-top: 2.5rem; }
+.timeline { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 1.1rem; }
+.timeline li { display: grid; grid-template-columns: 11rem 1fr; gap: 1rem; color: var(--muted); }
+.timeline .when { font-weight: 500; }
+.timeline strong { display: block; color: var(--ink); }
+.edu { color: var(--muted); }
+
 /* Projects */
 .project { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.75rem; margin-top: 1.25rem; }
 .project.featured { border-left: 5px solid var(--accent); }
@@ -120,7 +127,7 @@ blockquote { margin: 0; padding: .6rem 1rem; border-left: 3px solid var(--accent
 @media (max-width: 860px) {
   .hero { padding-block: 3rem; }
   .hero-grid, .grid-list, .two-col, .more { grid-template-columns: 1fr; }
-  .skills div { grid-template-columns: 1fr; gap: .25rem; }
+  .skills div, .timeline li { grid-template-columns: 1fr; gap: .25rem; }
 }
 @media (max-width: 560px) {
   .project { padding: 1.25rem; }
