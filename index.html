@@ -1,371 +1,1096 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sy Lam Anh Tran | Business Analyst</title>
-  <meta name="description" content="Sy Lam Anh Tran is an entry-level Business Analyst in Sydney. Requirements, process analysis, UAT and data analysis, backed by a Business Analyst internship at Paxform.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sy Lam Anh Tran | Business Analyst Portfolio</title>
+
+    <meta name="description"
+        content="Sy Lam Anh Tran - Entry-Level Business Analyst specialising in business process analysis, requirements, stakeholder engagement, UAT and data analysis.">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<a class="skip" href="#main">Skip to content</a>
 
-<header class="site-header">
-  <div class="wrap bar">
-    <a class="logo" href="#top">Sy Lam Anh Tran</a>
-    <button class="menu" aria-expanded="false" aria-controls="links">Menu</button>
-    <nav class="links" id="links" aria-label="Main">
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a class="pill" href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
+    <!-- ================= NAVIGATION ================= -->
 
-<main id="main">
+    <header class="navbar">
+        <div class="nav-container">
 
-<!-- ================= HERO ================= -->
-<section class="hero" id="top">
-  <div class="wrap hero-grid">
-    <div>
-      <h1>I turn messy business processes into clear requirements.</h1>
-      <p class="lede">I'm an entry-level Business Analyst in Sydney. I map how work happens today, find where it breaks, and write down what a better process needs, so developers and stakeholders build the same thing.</p>
-      <div class="actions">
-        <a class="btn primary" href="#projects">View projects</a>
-        <a class="btn ghost" href="CV.pdf" target="_blank" rel="noopener">Download CV</a>
-      </div>
-      <div class="facts">
-        <div><strong>Business Analyst Intern</strong><span>Paxform, July to October 2026</span></div>
-        <div><strong>Master of Information Systems</strong><span>CQUniversity Australia</span></div>
-      </div>
-    </div>
+            <a href="#home" class="logo">Sy Lam Anh Tran</a>
 
-    <figure class="diagram">
-      <svg viewBox="0 0 460 232" role="img" aria-labelledby="dtitle">
-        <title id="dtitle">Process diagram comparing the before and after of a form submission approval workflow</title>
-        <defs>
-          <marker id="head" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4L0 8z" fill="#46536a"/></marker>
-        </defs>
-        <text class="lane-label" x="0" y="18">Before</text>
-        <g>
-          <rect class="node" x="0" y="30" width="120" height="54" rx="8"/><text class="node-text" x="60" y="54">Form submitted</text><text class="node-sub" x="60" y="71" fill="#46536a">Pending</text>
-          <rect class="node bad" x="170" y="30" width="120" height="54" rx="8"/><text class="node-text" x="230" y="54">Manual review</text><text class="node-sub sub-bad" x="230" y="71">Bottleneck</text>
-          <rect class="node" x="340" y="30" width="120" height="54" rx="8"/><text class="node-text" x="400" y="54">Approve or return</text><text class="node-sub" x="400" y="71" fill="#46536a">One by one</text>
-          <path class="arrow" d="M122 57H166"/><path class="arrow" d="M292 57H336"/>
-        </g>
-        <text class="lane-label" x="0" y="138">After</text>
-        <g class="after">
-          <g class="n"><rect class="node" x="0" y="150" width="120" height="54" rx="8"/><text class="node-text" x="60" y="174">Form submitted</text><text class="node-sub" x="60" y="191" fill="#46536a">Pending</text></g>
-          <g class="n"><rect class="node good" x="170" y="150" width="120" height="54" rx="8"/><text class="node-text" x="230" y="174">Rules check</text><text class="node-sub sub-good" x="230" y="191">Automatic</text></g>
-          <g class="n"><rect class="node good" x="340" y="150" width="120" height="54" rx="8"/><text class="node-text" x="400" y="174">Completed</text><text class="node-sub sub-good" x="400" y="191">or sent back to user</text></g>
-        </g>
-        <g><path class="arrow" d="M122 177H166"/><path class="arrow" d="M292 177H336"/></g>
-      </svg>
-      <figcaption>A submission approval workflow, simplified from my Paxform internship.</figcaption>
-    </figure>
-  </div>
-</section>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-<!-- ================= ABOUT ================= -->
-<section class="section" id="about">
-  <div class="wrap about-grid">
-    <div>
-      <div class="section-head"><h2>I work where business needs meet technology.</h2></div>
-      <p>I'm completing a Master of Information Systems at CQUniversity, with a focus on business analysis, business process analysis and data analysis.</p>
-      <p>In my internship and university projects I've practised the full analyst loop: understanding how a process works today, finding what isn't working, and turning that into requirements, user stories, acceptance criteria and tests that people can act on.</p>
-      <p>I use data to back up recommendations, and I'm looking for an entry-level Business Analyst or Business Process Analyst role.</p>
-    </div>
-    <dl class="dl">
-      <div><dt>Studying</dt><dd>Master of Information Systems, CQUniversity (GPA 6.425 / 7)</dd></div>
-      <div><dt>Internship</dt><dd>Business Analyst Intern, Paxform (2026)</dd></div>
-      <div><dt>Focus</dt><dd>Requirements, process improvement, UAT, data analysis</dd></div>
-      <div><dt>Location</dt><dd>Sydney, Australia</dd></div>
-    </dl>
-  </div>
-</section>
+            <a href="#contact" class="nav-button">Let's Connect</a>
 
-<!-- ================= EXPERIENCE ================= -->
-<section class="section white" id="experience">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Real analyst work inside a software team.</h2>
-      <p>At Paxform, a SaaS startup that builds form-filling and workflow software, I worked with developers, testers and other interns on live product work.</p>
-    </div>
-    <div class="exp">
-      <div class="exp-side">
-        <h3>Business Analyst Intern</h3>
-        <p class="org">Paxform Pty Ltd</p>
-        <p class="meta">Parramatta, Sydney NSW<br>14 July to 8 October 2026<br>ICT Internship (COIT20276)</p>
-        <ul class="tools"><li>Jira</li><li>ActiveCollab</li><li>Confluence</li><li>Microsoft Visio</li><li>Google Workspace</li></ul>
-        <p class="note">Client, internal system and proprietary information has been anonymised or omitted.</p>
-      </div>
-      <div class="rows">
-        <div class="row"><h4>Requirements</h4><p>Gathered requirements through stakeholder discussions and turned them into user stories with testable acceptance criteria, for example e-contract signing across multiple parties with identity verification.</p></div>
-        <div class="row"><h4>Process analysis</h4><p>Mapped as-is workflows, found a manual verification bottleneck that limited how many submissions staff could handle, and proposed an RPA-based to-be process with a diagram for stakeholders.</p></div>
-        <div class="row"><h4>Workflow automation</h4><p>Drafted business rules and functional requirements for automatically approving form submissions that meet the criteria, and returning incomplete ones to the sender.</p></div>
-        <div class="row"><h4>Testing and UAT</h4><p>Reproduced platform defects and documented them in ActiveCollab with steps, expected vs actual results and evidence. Tested e-contract signing and document verification in UAT.</p></div>
-        <div class="row"><h4>Use case modelling</h4><p>Modelled the e-contract signing process as a UML use case diagram with specifications in Microsoft Visio.</p></div>
-        <div class="row"><h4>Product recommendations</h4><p>Analysed customer feedback and usage issues and gave five practical recommendations for improving the mobile app experience. Also completed a SWOT analysis of Paxform.</p></div>
-        <div class="row"><h4>Communication</h4><p>Presented findings to the development team in end-of-day meetings, hosted meetings, and tested new features with two other interns.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
+        </div>
+    </header>
 
-<!-- ================= PROJECTS ================= -->
-<section class="section" id="projects">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Projects that show how I analyse a problem.</h2>
-      <p>Each case study starts from the business problem and ends at requirements and a proposed solution. Open one to read the detail.</p>
-    </div>
 
-    <article class="proj lead">
-      <div class="kind">Business analysis<small>End-to-end case study</small></div>
-      <div>
-        <h3>Retail Store Operations and ERP Transformation</h3>
-        <p class="sub">Fragmented stock, sales and CRM in a multi-store fashion retailer</p>
-        <p class="sum">Store staff couldn't see stock in other stores, and replenishment relied on judgement and Excel. I analysed seven stakeholder groups, mapped as-is and to-be processes, wrote the requirements and evaluated Odoo ERP against them.</p>
-        <ol class="strip">
-          <li>Stakeholder analysis</li><li>Elicitation</li><li>As-is and root cause</li><li>Gap analysis and requirements</li><li>To-be design</li><li>Odoo fit-gap</li>
-        </ol>
-        <ul class="tags"><li>Requirements</li><li>BPMN</li><li>User stories</li><li>Gap analysis</li><li>Odoo</li></ul>
-        <button class="btn primary" data-open="case-erp">View case study</button>
-      </div>
-    </article>
+    <!-- ================= HERO ================= -->
 
-    <article class="proj">
-      <div class="kind">Process and data modelling<small>University project</small></div>
-      <div>
-        <h3>Property Rental Management System</h3>
-        <p class="sub">From duplicated spreadsheets to a standardised rental system</p>
-        <p class="sum">A rental operation tracked everything in spreadsheets full of duplicated data, which made maintenance requests slow to handle. I modelled the processes and designed a normalised data model to support a single system.</p>
-        <ul class="tags"><li>Process modelling</li><li>ER modelling</li><li>Normalisation</li><li>Business rules</li></ul>
-        <button class="btn ghost" data-open="case-rental">View case study</button>
-      </div>
-    </article>
+    <main>
 
-    <article class="proj">
-      <div class="kind">Data analysis<small>Power BI</small></div>
-      <div>
-        <h3>Victorian Property Sales</h3>
-        <p class="sub">Comparing prices and sales across regions and property types</p>
-        <p class="sum">I cleaned a 15-month government dataset and built Power BI visuals to compare median prices and sales volumes, then used them to match property segments to different customer needs.</p>
-        <ul class="tags"><li>Power BI</li><li>Data cleaning</li><li>Trend analysis</li><li>Visualisation</li></ul>
-        <button class="btn ghost" data-open="case-vic">View case study</button>
-      </div>
-    </article>
+        <section id="home" class="hero">
 
-    <h3 style="margin:56px 0 8px;font-size:1.3rem">More data projects</h3>
-    <ul class="extras">
-      <li><strong>House price analysis in Python</strong>Filled missing values, then improved a regression model's R² from about 0.5 to 0.75 using extra features, scaling and polynomial terms.</li>
-      <li><strong>Bitcoin BI proposal</strong>Coinbase API into PostgreSQL, an XGBoost model for short-term direction (40.78% accuracy vs a 33.3% baseline) and a Power BI layer.</li>
-      <li><strong>Mango dry matter prediction</strong>A 1D convolutional neural network on NIR spectra that reached an R² of 85%.</li>
-      <li><strong>Car sales retention dashboard</strong>An Excel dashboard of resale value and retention by manufacturer, built with pivot tables and slicers.</li>
-      <li><strong>Tesla and GameStop dashboards</strong>Python scripts that pull stock data and scrape revenue to build interactive dashboards.</li>
-      <li><strong>Melbourne property price prediction</strong>KNN and linear regression models trained on cleaned Australian property sales data.</li>
-    </ul>
-  </div>
-</section>
+            <div class="hero-container">
 
-<!-- ================= SKILLS ================= -->
-<section class="section white" id="skills">
-  <div class="wrap">
-    <div class="section-head"><h2>Skills</h2></div>
-    <div class="skills">
-      <div><h3>Business analysis</h3><ul>
-        <li>Requirements elicitation</li><li>User stories and acceptance criteria</li><li>As-is and to-be process mapping</li><li>Gap and root cause analysis</li><li>Stakeholder analysis</li><li>User acceptance testing</li><li>Use case modelling</li></ul></div>
-      <div><h3>Tools</h3><ul>
-        <li>Microsoft Visio, Lucidchart, Miro</li><li>Jira, ActiveCollab, Confluence</li><li>Excel and Power BI</li><li>SQL and MySQL</li><li>Python for data analysis</li><li>Odoo (solution evaluation)</li></ul></div>
-      <div><h3>Ways of working</h3><ul>
-        <li>Agile and Scrum</li><li>Waterfall</li><li>BPMN process notation</li><li>Presenting to technical and business audiences</li><li>Hosting meetings</li><li>Working to short deadlines</li></ul></div>
-    </div>
-  </div>
-</section>
+                <div class="hero-content">
 
-</main>
+                    <p class="eyebrow">BUSINESS ANALYSIS • PROCESS • DATA</p>
 
-<!-- ================= CONTACT ================= -->
-<section class="contact" id="contact">
-  <div class="wrap">
-    <h2>Looking for an entry-level Business Analyst?</h2>
-    <p>I'm open to Business Analyst and Business Process Analyst roles in Australia. Send me a message and I'll reply quickly.</p>
-    <div class="actions">
-      <a class="btn primary" href="mailto:sylamanh.tran@cqumail.com">Email me</a>
-      <a class="btn ghost" href="https://www.linkedin.com/in/sy-lam-anh-tran-24bb41364/" target="_blank" rel="noopener">LinkedIn</a>
-    </div>
-  </div>
-</section>
-<footer class="foot"><div class="wrap">&copy; 2026 Sy Lam Anh Tran</div></footer>
+                    <h1>
+                        Turning business needs into
+                        <span>practical solutions.</span>
+                    </h1>
 
-<!-- ================= CASE STUDY: ERP ================= -->
-<dialog class="case" id="case-erp" aria-labelledby="t-erp">
-  <div class="case-top">
-    <div><h3 id="t-erp">Retail Store Operations and ERP Transformation</h3><p>End-to-end business analysis case study</p></div>
-    <button class="close">Close</button>
-  </div>
-  <div class="case-body">
-    <section>
-      <h4>Business challenge</h4>
-      <p>A fashion retailer ran inventory, sales, CRM and purchasing as separate processes. Store staff couldn't see stock at other stores, and stock allocation and replenishment depended on manual work and judgement.</p>
-      <p><em>Scope: an academic case study based on real retail pain points. Company details are anonymised, and the outcomes below are proposed, not measured.</em></p>
-    </section>
-    <section>
-      <h4>Stakeholder analysis (7 groups)</h4>
-      <div class="scroll"><table class="tbl">
-        <tr><th>Stakeholder</th><th>Main need or pain point</th></tr>
-        <tr><td>Head Office, Merchandising</td><td>Limited visibility of store-level stock</td></tr>
-        <tr><td>Head Office, CRM and Marketing</td><td>Fragmented customer data</td></tr>
-        <tr><td>Store managers</td><td>Manual stock management</td></tr>
-        <tr><td>Sales associates</td><td>Limited CRM and cross-store stock visibility</td></tr>
-        <tr><td>Customers</td><td>Difficulty finding preferred sizes and styles</td></tr>
-        <tr><td>Procurement</td><td>Replenishment based on judgement</td></tr>
-        <tr><td>IT and systems</td><td>Fragmented tools and systems</td></tr>
-      </table></div>
-    </section>
-    <section>
-      <h4>How I gathered requirements</h4>
-      <ul class="bul">
-        <li><strong>Semi-structured interviews</strong> with store managers, supervisors and staff to find operational inefficiencies.</li>
-        <li><strong>Role-play and observation</strong>: acting as a customer to see how staff search for stock and handle unavailable items.</li>
-        <li><strong>Artefact review</strong> of Excel inventory files, order emails and paper purchase forms.</li>
-      </ul>
-    </section>
-    <section>
-      <h4>As-is findings and root causes</h4>
-      <ul class="bul">
-        <li><strong>Inventory:</strong> manual counting and Excel records, error-prone and with no real-time view.</li>
-        <li><strong>Allocation:</strong> Head Office prioritised new collections over local demand.</li>
-        <li><strong>Customer service and CRM:</strong> staff saw only their own store's stock, and customer data sat at Head Office, so cross-store sales and follow-ups were missed.</li>
-        <li><strong>Replenishment:</strong> purchase requests relied on judgement, not sales and inventory data.</li>
-        <li><strong>People and structure:</strong> process and Excel knowledge sat with a few key staff, casual turnover was high, and no single system connected inventory, sales, CRM and purchasing.</li>
-      </ul>
-    </section>
-    <section>
-      <h4>Gap analysis</h4>
-      <div class="scroll"><table class="tbl">
-        <tr><th>Area</th><th>As-is</th><th>To-be</th><th>Gap</th></tr>
-        <tr><td>Inventory</td><td>Manual Excel tracking</td><td>Real-time visibility</td><td>No integrated real-time system</td></tr>
-        <tr><td>Allocation</td><td>New collections first</td><td>Demand-driven</td><td>Limited real-time demand data</td></tr>
-        <tr><td>Stock visibility</td><td>Own store only</td><td>Network-wide</td><td>No store-to-store view</td></tr>
-        <tr><td>CRM</td><td>Mainly Head Office</td><td>Store-level CRM</td><td>Limited synchronisation</td></tr>
-      </table></div>
-    </section>
-    <section>
-      <h4>Business requirements</h4>
-      <ul class="bul">
-        <li><strong>BR-01</strong> Real-time inventory visibility across stores and warehouses.</li>
-        <li><strong>BR-02</strong> Visibility of store demand to support allocation decisions.</li>
-        <li><strong>BR-03</strong> Search, reserve and transfer stock between stores.</li>
-        <li><strong>BR-04</strong> Customer purchase history for personalised recommendations.</li>
-        <li><strong>BR-05</strong> CRM pipeline for follow-up and post-sale engagement.</li>
-        <li><strong>BR-06</strong> Replenishment based on sales history and inventory levels.</li>
-        <li><strong>BR-07</strong> Standardised workflows that reduce dependence on key staff.</li>
-      </ul>
-      <p style="margin-top:12px"><strong>Traceability example:</strong> BR-03 became FR-03, "the system should let sales staff search products across stores and start a reservation or stock transfer."</p>
-    </section>
-    <section>
-      <h4>Example user story</h4>
-      <div class="story">
-        <p><strong>As a</strong> sales associate, <strong>I want to</strong> search for products across stores, <strong>so that</strong> I can help customers get unavailable sizes or styles.</p>
-        <p><strong>Given</strong> the product is unavailable in the current store, <strong>when</strong> the employee searches the network, <strong>then</strong> stock at other locations is displayed <strong>and</strong> the employee can start a reservation or transfer request.</p>
-      </div>
-    </section>
-    <section>
-      <h4>To-be process</h4>
-      <ol class="steps">
-        <li>Customer asks for a product.</li>
-        <li>Staff check local inventory. If available, complete the sale.</li>
-        <li>If not, search network-wide inventory.</li>
-        <li>If stock exists elsewhere, reserve or transfer it. If not, check the warehouse and trigger replenishment.</li>
-        <li>Record the interaction in the CRM for follow-up and future sales.</li>
-      </ol>
-    </section>
-    <section>
-      <h4>Odoo fit-gap evaluation</h4>
-      <p>I evaluated Odoo against each requirement to separate what standard configuration covers from what needs a process or system change. Modules considered: Inventory (a location per store, stock movement tracking), Reordering rules (thresholds and demand-based replenishment), CRM (customer records, pipeline, follow-up activities), Purchase (order and approval workflow) and Stock transfers between locations.</p>
-      <p><strong>Non-functional requirements:</strong> fast inventory display, at least 99.5% availability in operating hours, restricted access to customer data, usability after basic onboarding, and consistent data across stores.</p>
-    </section>
-    <div class="callout"><p><strong>Expected impact:</strong> better inventory visibility, demand-driven allocation, cross-store transfers, stronger CRM follow-up and less reliance on manual processes.</p></div>
-  </div>
-</dialog>
+                    <p class="hero-description">
+                        I am an entry-level Business Analyst focused on understanding
+                        business problems, analysing processes, translating requirements
+                        into actionable solutions, and using data to support better decisions.
+                    </p>
 
-<!-- ================= CASE STUDY: RENTAL ================= -->
-<dialog class="case" id="case-rental" aria-labelledby="t-rental">
-  <div class="case-top">
-    <div><h3 id="t-rental">Property Rental Management System</h3><p>Business analysis and process modelling</p></div>
-    <button class="close">Close</button>
-  </div>
-  <div class="case-body">
-    <section>
-      <h4>Business problem</h4>
-      <p>The rental operation relied on spreadsheets with duplicated information. Keeping the data accurate was hard, and maintenance requests were handled inefficiently.</p>
-    </section>
-    <section>
-      <h4>My approach</h4>
-      <ol class="steps">
-        <li><strong>Process analysis:</strong> identified operational issues and inefficient maintenance workflows.</li>
-        <li><strong>Process modelling:</strong> modelled the business processes and system interactions in Microsoft Visio, Lucidchart and Miro.</li>
-        <li><strong>Data modelling:</strong> built an ER model and applied normalisation from 1NF to 3NF to keep data consistent.</li>
-        <li><strong>Requirements and design:</strong> defined system requirements, business rules and database constraints for a standardised rental management system.</li>
-      </ol>
-    </section>
-    <div class="callout"><p><strong>Takeaway:</strong> business process, then requirements, then system model, then data model. Each step feeds the next.</p></div>
-  </div>
-</dialog>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Projects
+                        </a>
 
-<!-- ================= CASE STUDY: VICTORIA ================= -->
-<dialog class="case" id="case-vic" aria-labelledby="t-vic">
-  <div class="case-top">
-    <div><h3 id="t-vic">Victorian Property Sales</h3><p>Data analysis and visualisation in Power BI</p></div>
-    <button class="close">Close</button>
-  </div>
-  <div class="case-body">
-    <section>
-      <h4>Business problem</h4>
-      <p>Which regions and property types offer which price points? I analysed Victorian property sales to find pricing and sales trends that could support property decisions for different customer segments.</p>
-    </section>
-    <section>
-      <h4>The data</h4>
-      <p>The Victorian Property Sales Report (yearly summary) covers three areas: Country Victoria, the Melbourne Metropolitan Area and Victoria overall. Over a 15-month period it includes property types, number of sales, median prices and percentage change. It had six features, and several irrelevant columns needed to be removed before analysis.</p>
-    </section>
-    <section>
-      <h4>Approach</h4>
-      <ol class="steps">
-        <li>Select the features that matter, keeping median price as essential.</li>
-        <li>Clean the data: remove errors, inconsistencies and duplicates, and turn raw rows into a usable format.</li>
-        <li>Compare trends across regions and property types.</li>
-        <li>Build interactive Power BI visuals of prices and sales.</li>
-      </ol>
-    </section>
-    <div class="callout"><p><strong>Insight:</strong> for customers looking for a lower price segment, a unit or apartment in Country Victoria stood out, with a median price of only $420,000 AUD compared with the other segments.</p></div>
-    <p style="margin-top:20px;font-size:.9rem"><a href="https://discover.data.vic.gov.au/dataset/victorian-property-sales-report-yearly-summary" target="_blank" rel="noopener">Data source: Victorian Property Sales Report</a></p>
-  </div>
-</dialog>
+                        <a href="CV.pdf" class="btn btn-secondary" target="_blank">
+                            Download CV
+                        </a>
+                    </div>
 
-<script>
-  // Case study dialogs
-  document.querySelectorAll('[data-open]').forEach(function (b) {
-    b.addEventListener('click', function () { document.getElementById(b.dataset.open).showModal(); });
-  });
-  document.querySelectorAll('dialog').forEach(function (d) {
-    d.addEventListener('click', function (e) { if (e.target === d) d.close(); });
-    d.querySelector('.close').addEventListener('click', function () { d.close(); });
-  });
-  // Mobile menu
-  var menu = document.querySelector('.menu'), links = document.getElementById('links');
-  menu.addEventListener('click', function () {
-    var open = links.classList.toggle('open');
-    menu.setAttribute('aria-expanded', open);
-  });
-  links.querySelectorAll('a').forEach(function (a) {
-    a.addEventListener('click', function () { links.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); });
-  });
-</script>
+                    <div class="hero-keywords">
+
+                        <span>Requirements</span>
+                        <span>Process Analysis</span>
+                        <span>Stakeholder Engagement</span>
+                        <span>UAT</span>
+                        <span>Power BI</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="hero-card-top">
+                        <span class="status-dot"></span>
+                        <span>Business Analyst</span>
+                    </div>
+
+                    <div class="hero-flow">
+
+                        <div class="flow-item">
+                            <div class="flow-number">01</div>
+                            <div>
+                                <strong>Understand</strong>
+                                <p>Business needs</p>
+                            </div>
+                        </div>
+
+                        <div class="flow-line"></div>
+
+                        <div class="flow-item">
+                            <div class="flow-number">02</div>
+                            <div>
+                                <strong>Analyse</strong>
+                                <p>Processes & gaps</p>
+                            </div>
+                        </div>
+
+                        <div class="flow-line"></div>
+
+                        <div class="flow-item">
+                            <div class="flow-number">03</div>
+                            <div>
+                                <strong>Translate</strong>
+                                <p>Requirements</p>
+                            </div>
+                        </div>
+
+                        <div class="flow-line"></div>
+
+                        <div class="flow-item">
+                            <div class="flow-number">04</div>
+                            <div>
+                                <strong>Improve</strong>
+                                <p>Technology & data</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section about-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <p class="section-label">ABOUT ME</p>
+                    <h2>Business first. Technology second.</h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p>
+                            I am currently completing a Master of Information Systems
+                            at Central Queensland University, with a strong interest in
+                            Business Analysis, Business Process Analysis and Data Analysis.
+                        </p>
+
+                        <p>
+                            Through my ICT internship and university projects, I have
+                            developed practical experience in requirements elicitation,
+                            process modelling, stakeholder analysis, user stories,
+                            acceptance criteria, UAT and process improvement.
+                        </p>
+
+                        <p>
+                            I enjoy working at the point where business needs and
+                            technology meet — understanding how a process works today,
+                            identifying what is not working, and translating those
+                            findings into a better future-state solution.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-highlight">
+
+                        <div class="highlight-item">
+                            <span class="highlight-number">6.425/7</span>
+                            <span class="highlight-label">Current GPA</span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <span class="highlight-number">BA</span>
+                            <span class="highlight-label">Career Focus</span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <span class="highlight-number">ICT</span>
+                            <span class="highlight-label">Internship Experience</span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <span class="highlight-number">AU</span>
+                            <span class="highlight-label">Based in Australia</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section id="experience" class="section experience-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <p class="section-label">EXPERIENCE</p>
+                    <h2>Hands-on Business Analysis experience.</h2>
+                    <p>
+                        My internship experience has allowed me to work with real
+                        business processes, product requirements and software teams.
+                    </p>
+                </div>
+
+
+                <div class="experience-card">
+
+                    <div class="experience-header">
+
+                        <div>
+                            <p class="experience-type">ICT INTERNSHIP</p>
+                            <h3>Business Analyst Intern</h3>
+                            <h4>Paxform — Sydney, Australia</h4>
+                        </div>
+
+                        <span class="experience-badge">
+                            Business Analysis
+                        </span>
+
+                    </div>
+
+
+                    <div class="experience-grid">
+
+                        <div class="experience-item">
+
+                            <h5>Requirements Analysis</h5>
+
+                            <p>
+                                Gathered and analysed business requirements through
+                                stakeholder discussions and translated business needs
+                                into user stories, acceptance criteria and functional
+                                requirements.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>Business Process Analysis</h5>
+
+                            <p>
+                                Analysed AS-IS workflows through observation and
+                                stakeholder discussions, identified bottlenecks and
+                                designed TO-BE process improvements.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>Stakeholder Collaboration</h5>
+
+                            <p>
+                                Worked with software development and testing teams
+                                to clarify requirements, investigate issues and
+                                support product improvements.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>User Acceptance Testing</h5>
+
+                            <p>
+                                Worked with client representatives to test product
+                                functionality including electronic contract signing
+                                and document verification.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>Process Improvement</h5>
+
+                            <p>
+                                Analysed a repetitive submission approval and denial
+                                workflow and proposed an RPA-based improvement to
+                                reduce manual processing.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>Use Case Modelling</h5>
+
+                            <p>
+                                Analysed the e-contract signing process and developed
+                                UML use case diagrams and use case specifications
+                                using Microsoft Visio.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="experience-footer">
+
+                        <span>Requirements</span>
+                        <span>User Stories</span>
+                        <span>Acceptance Criteria</span>
+                        <span>AS-IS / TO-BE</span>
+                        <span>UAT</span>
+                        <span>UML</span>
+                        <span>Process Improvement</span>
+
+                    </div>
+
+                    <p class="confidential-note">
+                        Client, internal system and proprietary information has been
+                        anonymised or omitted.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section projects-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">FEATURED PROJECTS</p>
+
+                    <h2>Selected Business Analysis projects.</h2>
+
+                    <p>
+                        A selection of projects demonstrating how I approach
+                        business problems, processes, requirements, technology
+                        and data.
+                    </p>
+
+                </div>
+
+
+                <!-- PROJECT 1 -->
+
+                <article class="project-card featured-project">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+
+                            <span>BUSINESS ANALYSIS</span>
+                            <span>ERP</span>
+                            <span>PROCESS IMPROVEMENT</span>
+
+                        </div>
+
+                        <h3>Retail Store Operations & ERP Transformation</h3>
+
+                        <p class="project-subtitle">
+                            End-to-End Business Analysis Case Study
+                        </p>
+
+
+                        <div class="project-section">
+
+                            <h4>Business Challenge</h4>
+
+                            <p>
+                                A fashion retail organisation was experiencing
+                                fragmented inventory, sales, CRM and purchasing
+                                processes. Store staff had limited visibility of
+                                stock across locations, while stock allocation and
+                                replenishment decisions relied heavily on manual
+                                processes and judgement.
+                            </p>
+
+                        </div>
+
+
+                        <div class="project-section">
+
+                            <h4>My Approach</h4>
+
+                            <div class="process-tags">
+
+                                <span>Stakeholder Analysis</span>
+                                <span>Requirements Elicitation</span>
+                                <span>AS-IS Mapping</span>
+                                <span>Root Cause Analysis</span>
+                                <span>Gap Analysis</span>
+                                <span>Requirements</span>
+                                <span>TO-BE Design</span>
+                                <span>Fit-Gap Analysis</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project-section">
+
+                            <h4>Key Business Requirements</h4>
+
+                            <ul class="project-list">
+
+                                <li>
+                                    Provide visibility of inventory across
+                                    stores and warehouses.
+                                </li>
+
+                                <li>
+                                    Allow staff to search network-wide stock
+                                    and request transfers.
+                                </li>
+
+                                <li>
+                                    Support CRM-based customer follow-up
+                                    and purchase history.
+                                </li>
+
+                                <li>
+                                    Improve replenishment decisions using
+                                    sales and inventory data.
+                                </li>
+
+                                <li>
+                                    Standardise operational workflows and
+                                    reduce reliance on key staff.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="project-section">
+
+                            <h4>Solution Evaluation</h4>
+
+                            <p>
+                                Odoo was evaluated against the identified
+                                business requirements. Standard capabilities
+                                across Inventory, Sales, CRM, Purchasing,
+                                reordering rules and stock transfers were
+                                considered as part of the fit-gap analysis.
+                            </p>
+
+                        </div>
+
+
+                        <div class="project-flow">
+
+                            <div class="flow-box">
+                                <strong>Customer Request</strong>
+                                <small>Specific size / style</small>
+                            </div>
+
+                            <div class="arrow">→</div>
+
+                            <div class="flow-box">
+                                <strong>Check Stock</strong>
+                                <small>Local inventory</small>
+                            </div>
+
+                            <div class="arrow">→</div>
+
+                            <div class="flow-box">
+                                <strong>Search Network</strong>
+                                <small>Other stores</small>
+                            </div>
+
+                            <div class="arrow">→</div>
+
+                            <div class="flow-box">
+                                <strong>Transfer / Replenish</strong>
+                                <small>Reserve or reorder</small>
+                            </div>
+
+                            <div class="arrow">→</div>
+
+                            <div class="flow-box">
+                                <strong>CRM Follow-up</strong>
+                                <small>Future sale</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="project-outcome">
+
+                            <strong>Expected Business Impact</strong>
+
+                            <p>
+                                Improve inventory visibility, support demand-driven
+                                stock allocation, enable cross-store transfers,
+                                strengthen CRM follow-up and reduce reliance on
+                                manual processes.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">02</div>
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+
+                            <span>BUSINESS ANALYSIS</span>
+                            <span>DATABASE</span>
+                            <span>PROCESS MODELLING</span>
+
+                        </div>
+
+                        <h3>Property Rental Management System</h3>
+
+                        <p class="project-subtitle">
+                            Business Analysis & Process Modelling
+                        </p>
+
+
+                        <div class="project-section">
+
+                            <h4>Business Problem</h4>
+
+                            <p>
+                                A rental operation relied on spreadsheets
+                                containing duplicated information, making
+                                data maintenance and maintenance-request
+                                handling inefficient.
+                            </p>
+
+                        </div>
+
+
+                        <div class="project-section">
+
+                            <h4>My Approach</h4>
+
+                            <ul class="project-list">
+
+                                <li>
+                                    Identified operational issues and
+                                    inefficient maintenance workflows.
+                                </li>
+
+                                <li>
+                                    Modelled business processes and system
+                                    interactions using Visio, Lucidchart
+                                    and Miro.
+                                </li>
+
+                                <li>
+                                    Developed an ER model and applied
+                                    1NF → 3NF normalisation.
+                                </li>
+
+                                <li>
+                                    Defined business rules, requirements
+                                    and database constraints.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="project-journey">
+
+                            <div>
+                                <span>01</span>
+                                <strong>Business Problem</strong>
+                            </div>
+
+                            <div>
+                                <span>02</span>
+                                <strong>Process Analysis</strong>
+                            </div>
+
+                            <div>
+                                <span>03</span>
+                                <strong>Requirements</strong>
+                            </div>
+
+                            <div>
+                                <span>04</span>
+                                <strong>System Model</strong>
+                            </div>
+
+                            <div>
+                                <span>05</span>
+                                <strong>Data Model</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-number">03</div>
+
+                    <div class="project-content">
+
+                        <div class="project-meta">
+
+                            <span>POWER BI</span>
+                            <span>DATA ANALYSIS</span>
+                            <span>PROPERTY</span>
+
+                        </div>
+
+                        <h3>Visualising Victorian Property Sales</h3>
+
+                        <p class="project-subtitle">
+                            Power BI Data Analysis & Visualisation
+                        </p>
+
+
+                        <div class="project-section">
+
+                            <h4>Business Objective</h4>
+
+                            <p>
+                                Analyse Victorian property sales data across
+                                regions and property types to identify pricing
+                                and sales trends that could support
+                                property-related decision making.
+                            </p>
+
+                        </div>
+
+
+                        <div class="project-section">
+
+                            <h4>Data & Analysis</h4>
+
+                            <ul class="project-list">
+
+                                <li>
+                                    Analysed sales, median prices and
+                                    percentage changes.
+                                </li>
+
+                                <li>
+                                    Compared Country Victoria,
+                                    Melbourne Metropolitan Area and
+                                    Victoria overall.
+                                </li>
+
+                                <li>
+                                    Compared Houses, Units/Apartments
+                                    and Vacant House Blocks.
+                                </li>
+
+                                <li>
+                                    Cleaned and prepared the dataset
+                                    before visualisation.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="project-journey">
+
+                            <div>
+                                <span>01</span>
+                                <strong>Data Cleaning</strong>
+                            </div>
+
+                            <div>
+                                <span>02</span>
+                                <strong>Feature Selection</strong>
+                            </div>
+
+                            <div>
+                                <span>03</span>
+                                <strong>Trend Analysis</strong>
+                            </div>
+
+                            <div>
+                                <span>04</span>
+                                <strong>Power BI</strong>
+                            </div>
+
+                            <div>
+                                <span>05</span>
+                                <strong>Business Insights</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="dashboard-placeholder">
+
+                            <div class="dashboard-icon">▦</div>
+
+                            <div>
+                                <strong>Power BI Dashboard</strong>
+                                <p>
+                                    Interactive visualisation of property
+                                    prices, sales and regional trends.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ADDITIONAL PROJECTS -->
+
+                <div class="additional-projects">
+
+                    <div class="additional-heading">
+
+                        <p class="section-label">ADDITIONAL PROJECTS</p>
+
+                        <h3>Data & Technology Projects</h3>
+
+                        <p>
+                            Supporting projects demonstrating my broader
+                            analytical and technical foundation.
+                        </p>
+
+                    </div>
+
+
+                    <div class="mini-project-grid">
+
+                        <div class="mini-project">
+
+                            <span class="mini-project-type">DATA ANALYSIS</span>
+
+                            <h4>House Price Analysis using Python</h4>
+
+                            <p>
+                                Exploratory data analysis, data cleaning,
+                                feature engineering and regression modelling
+                                for property price prediction.
+                            </p>
+
+                        </div>
+
+
+                        <div class="mini-project">
+
+                            <span class="mini-project-type">BUSINESS INTELLIGENCE</span>
+
+                            <h4>Bitcoin Price Prediction & Power BI</h4>
+
+                            <p>
+                                Combined market data, machine learning and
+                                Power BI to explore price trends and
+                                decision-support insights.
+                            </p>
+
+                        </div>
+
+
+                        <div class="mini-project">
+
+                            <span class="mini-project-type">DATA VISUALISATION</span>
+
+                            <h4>Historical Stock & Revenue Dashboard</h4>
+
+                            <p>
+                                Analysed historical company data and created
+                                dashboards to communicate trends and
+                                business performance.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section skills-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">SKILLS</p>
+
+                    <h2>What I bring to a BA role.</h2>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-icon">01</div>
+
+                        <h3>Business Analysis</h3>
+
+                        <ul>
+                            <li>Requirements elicitation</li>
+                            <li>Requirements documentation</li>
+                            <li>User stories</li>
+                            <li>Acceptance criteria</li>
+                            <li>Use case modelling</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-icon">02</div>
+
+                        <h3>Process Analysis</h3>
+
+                        <ul>
+                            <li>AS-IS / TO-BE analysis</li>
+                            <li>Process mapping</li>
+                            <li>Gap analysis</li>
+                            <li>Root cause analysis</li>
+                            <li>Process improvement</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-icon">03</div>
+
+                        <h3>Stakeholders & Testing</h3>
+
+                        <ul>
+                            <li>Stakeholder engagement</li>
+                            <li>Workshop / interview support</li>
+                            <li>UAT</li>
+                            <li>Functional testing</li>
+                            <li>Agile collaboration</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-category">
+
+                        <div class="skill-icon">04</div>
+
+                        <h3>Tools & Data</h3>
+
+                        <ul>
+                            <li>Microsoft Visio</li>
+                            <li>Miro / Lucidchart</li>
+                            <li>Excel</li>
+                            <li>Power BI</li>
+                            <li>SQL / MySQL</li>
+                            <li>Zoho CRM</li>
+                            <li>Python</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BA APPROACH ================= -->
+
+        <section class="section approach-section">
+
+            <div class="section-container">
+
+                <div class="approach-content">
+
+                    <div>
+
+                        <p class="section-label">MY APPROACH</p>
+
+                        <h2>
+                            I focus on the problem before
+                            the technology.
+                        </h2>
+
+                    </div>
+
+
+                    <div class="approach-flow">
+
+                        <div class="approach-step">
+
+                            <span>01</span>
+
+                            <div>
+                                <h3>Understand</h3>
+                                <p>
+                                    Understand stakeholders, business goals
+                                    and the current problem.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="approach-step">
+
+                            <span>02</span>
+
+                            <div>
+                                <h3>Analyse</h3>
+                                <p>
+                                    Analyse processes, data, bottlenecks
+                                    and root causes.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="approach-step">
+
+                            <span>03</span>
+
+                            <div>
+                                <h3>Translate</h3>
+                                <p>
+                                    Translate findings into requirements,
+                                    user stories and acceptance criteria.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="approach-step">
+
+                            <span>04</span>
+
+                            <div>
+                                <h3>Improve</h3>
+                                <p>
+                                    Design practical solutions that connect
+                                    people, process, technology and data.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="section-container">
+
+                <div class="contact-box">
+
+                    <div class="contact-content">
+
+                        <p class="section-label">GET IN TOUCH</p>
+
+                        <h2>
+                            Let's talk about
+                            business, technology and opportunities.
+                        </h2>
+
+                        <p>
+                            I am currently open to Business Analyst,
+                            Business Process Analyst, Data Analyst,
+                            internship and junior opportunities.
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-links">
+
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            <span>Email</span>
+                            <strong>your.email@example.com</strong>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/sy-lam-anh-tran-24bb41364/"
+                           target="_blank"
+                           class="contact-link">
+
+                            <span>LinkedIn</span>
+                            <strong>View LinkedIn Profile →</strong>
+
+                        </a>
+
+                        <a href="https://github.com/"
+                           target="_blank"
+                           class="contact-link">
+
+                            <span>GitHub</span>
+                            <strong>View Projects →</strong>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <p>
+                © 2026 Sy Lam Anh Tran
+            </p>
+
+            <p>
+                Business Analyst Portfolio
+            </p>
+
+        </div>
+
+    </footer>
+
+
 </body>
 </html>
